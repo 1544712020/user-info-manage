@@ -3,25 +3,13 @@
 #### 介绍
 JavaWeb小项目，使用JSP+Servlet+Filter+JDBC+MySQL
 
-#### 软件架构
-软件架构说明
+#### 项目截图
 
+##### 登陆页面
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1214/172842_8c08e393_6533994.png "屏幕截图.png")
 
-#### 安装教程
+##### 注册页面
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1214/172918_9f3f84ec_6533994.png "屏幕截图.png")
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+##### 主页面
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1214/173016_d8c14da8_6533994.png "屏幕截图.png")
