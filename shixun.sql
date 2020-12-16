@@ -11,6 +11,25 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+
+-- 导出 shixun 的数据库结构
+CREATE DATABASE IF NOT EXISTS `shixun` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */;
+USE `shixun`;
+
+-- 导出  表 shixun.user 结构
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) COLLATE utf8_bin DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `address` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `qq` varchar(20) COLLATE utf8_bin DEFAULT NULL,
+  `email` varchar(30) COLLATE utf8_bin DEFAULT NULL,
+  `username` varchar(100) COLLATE utf8_bin DEFAULT NULL,
+  `password` varchar(50) COLLATE utf8_bin DEFAULT NULL,
+  `gender` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=277 DEFAULT CHARSET=utf8 COLLATE=utf8_bin ROW_FORMAT=DYNAMIC;
+
 -- 正在导出表  shixun.user 的数据：~107 rows (大约)
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` (`id`, `name`, `age`, `address`, `qq`, `email`, `username`, `password`, `gender`) VALUES
